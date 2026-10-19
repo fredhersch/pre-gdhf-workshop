@@ -56,11 +56,14 @@ Then navigate to `http://localhost:8080/`.
 
 ### 2. Host on GitHub Pages (Instant Zero-Config Deployment)
 
-1. Push this repository to GitHub.
-2. In your GitHub repository, navigate to **Settings** > **Pages**.
+1. Push this repository to GitHub:
+   ```bash
+   git push -u origin main
+   ```
+2. In your GitHub repository ([github.com/fredhersch/pre-gdhf-workshop](https://github.com/fredhersch/pre-gdhf-workshop)), navigate to **Settings** > **Pages**.
 3. Under **Build and deployment** > **Branch**, select `main` and folder `/(root)`, then click **Save**.
 4. GitHub Pages will publish the live interactive tracker at:
-   `https://<your-username>.github.io/<repo-name>/`
+   `https://fredhersch.github.io/pre-gdhf-workshop/`
 
 ---
 
